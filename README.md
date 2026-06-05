@@ -1,4 +1,4 @@
-## Supermart Sales Analysis
+##Task1 : Supermart Sales Analysis
 
 Overview :
 This project performs Exploratory Data Analysis (EDA) on retail sales data using Microsoft Excel.  
@@ -38,7 +38,7 @@ By leveraging these insights, businesses can make data-driven decisions to impro
 
 
 
-## Fraud Detection using Machine Learning 
+##Task2 : Fraud Detection using Machine Learning 
 
 Project Overview :
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques.  
