@@ -99,4 +99,13 @@ Real-Time Simulation :
 This project demonstrates how machine learning can effectively detect fraudulent transactions.  
 Handling class imbalance and focusing on recall significantly improves fraud detection performance.
 
+## Dataset
+
+Dataset is provided in compressed ZIP format.
+
+Steps to use:
+1. Download the ZIP file
+2. Extract it
+3. Use `creditcard.csv` in the notebook
+
 
