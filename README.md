@@ -1,6 +1,6 @@
-##Task1 : Supermart Sales Analysis
+Task1 : Supermart Sales Analysis
 
-Project Overview:
+## Project Overview:
 This project performs Exploratory Data Analysis (EDA) on retail sales data using Microsoft Excel.  
 The goal is to analyze sales trends, identify top-performing categories and cities, and generate meaningful business insights.
 
@@ -19,9 +19,9 @@ The goal is to analyze sales trends, identify top-performing categories and citi
 
 ## Key Insights:
 - Sales show a consistent upward trend from 2015 to 2018, indicating strong business growth.
-- The **"Eggs, Meat & Fish"** category generates the highest revenue among all product categories.
-- **Kanyakumari and Vellore** are the top-performing cities in terms of sales.
-- Sales peak during the **September to December** period, indicating strong seasonal demand.
+- The "Eggs, Meat & Fish" category generates the highest revenue among all product categories.
+- Kanyakumari and Vellore are the top-performing cities in terms of sales.
+- Sales peak during the September to December period, indicating strong seasonal demand.
 - Lower sales are observed in the beginning months (January–February), suggesting seasonal variation.
 
 ## Recommendations:
@@ -37,10 +37,9 @@ By leveraging these insights, businesses can make data-driven decisions to impro
 
 
 
+Task2 : Fraud Detection using Machine Learning 
 
-##Task2 : Fraud Detection using Machine Learning 
-
-Project Overview :
+##Project Overview :
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques.  
 The dataset is highly imbalanced, making fraud detection a challenging task.
 
@@ -91,11 +90,7 @@ The dataset is highly imbalanced, making fraud detection a challenging task.
 ## Results:
 - Achieved high recall for fraud detection  
 - Successfully identified most fraudulent transactions  
-- Demonstrated effectiveness on imbalanced dataset  
-
-## Conclusion:
-This project demonstrates how machine learning can effectively detect fraudulent transactions.  
-Handling class imbalance and focusing on recall significantly improves fraud detection performance.
+- Demonstrated effectiveness on imbalanced dataset
 
 ## Dataset:
 Dataset is provided in compressed ZIP format.
@@ -103,6 +98,11 @@ Steps to use:
 1. Download the ZIP file
 2. Extract it
 3. Use `creditcard.csv` in the notebook
+
+## Conclusion:
+This project demonstrates how machine learning can effectively detect fraudulent transactions.  
+Handling class imbalance and focusing on recall significantly improves fraud detection performance.
+
 
 
 ##Task3: Customer Segmentation using K-Means
@@ -118,28 +118,28 @@ The dataset contains customer information such as:
 - Product spending
   
 ## Steps Performed:
-1. Data Collection
+1.Data Collection
 Loaded the dataset using pandas.
 
-3. Data Exploration
+2.Data Exploration
 Analyzed dataset structure using `.head()`, `.info()`, `.describe()`.
 
-5. Feature Engineering
+3.Feature Engineering
 Created new features:
 - Total Spending (MntTotal)
 - Total Purchases
 - Engagement Rate
-  
-4. Data Preprocessing
+
+4.Data Preprocessing
 Scaled features using StandardScaler.
 
-6. Clustering
+5.Clustering
 Applied K-Means algorithm to segment customers into groups.
 
-8. Visualization
+6.Visualization
 Visualized clusters using scatter plots.
 
-10. Insights
+7.Insights
 Identified different customer groups based on income and spending behavior.
 
 ## Results:
